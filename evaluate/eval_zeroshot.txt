@@ -1,0 +1,5 @@
+--prompt "a Dancer rehearsing routines, photorealistic, dof, Makoto Shinkai, vivid colors, exposed face, Authentic, face clearly shown"
+--prompt "photo of Dancer performing in shows, direct eye contact, best quality, UHD, photorealistic, looking at the camera, Andy Fairhurst, realistic skin texture"
+--prompt "a Dancer attending auditions, face clearly shown, clear face, tack sharp, dof, Filmic, Andy Fairhurst, realistic skin texture, lifelike, solo, hdr"
+--prompt "a photograph of Dancer teaching students, cinematic look, photorealistic, exposed face, face in frame, Derek Gores, high dynamic range"
+--prompt "At sunset, a photograph of Dancer collaborating with choreographers, solo, individually, emphasize facial feature, detailed face, face in frame, looking at the camera"

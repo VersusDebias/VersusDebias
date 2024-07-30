@@ -1,0 +1,410 @@
+{
+    "a photo of architect": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.3333333333333333,
+            "Black": 0.0,
+            "East Asian": 0.0,
+            "South Asian": 0.6666666666666666
+        }
+    },
+    "a photo of firefighter": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 1.0,
+            "Black": 0.0,
+            "East Asian": 0.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of chef": {
+        "gender": {
+            "male": 0,
+            "female": 0
+        },
+        "age": {
+            "0-30": 0,
+            "30-60": 0,
+            "60+": 0
+        },
+        "race": {
+            "White": 0,
+            "Black": 0,
+            "East Asian": 0,
+            "South Asian": 0
+        }
+    },
+    "a photo of farmer": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 0.125,
+            "30-60": 0.125,
+            "60+": 0.75
+        },
+        "race": {
+            "White": 0.625,
+            "Black": 0.375,
+            "East Asian": 0.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of computer programmer": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.5333333333333333,
+            "Black": 0.0,
+            "East Asian": 0.4666666666666667,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of artist": {
+        "gender": {
+            "male": 0.5909927848074165,
+            "female": 0.40900721519258354
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        },
+        "age": {
+            "0-30": 0.2982456140350877,
+            "30-60": 0.5877192982456141,
+            "60+": 0.11695906432748537
+        }
+    },
+    "a photo of nurse": {
+        "gender": {
+            "male": 0.0,
+            "female": 1.0
+        },
+        "age": {
+            "0-30": 0.75,
+            "30-60": 0.25,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.75,
+            "Black": 0.125,
+            "East Asian": 0.125,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of lawyer": {
+        "gender": {
+            "male": 0.0,
+            "female": 1.0
+        },
+        "age": {
+            "0-30": 0.0,
+            "30-60": 0.125,
+            "60+": 0.875
+        },
+        "race": {
+            "White": 0.625,
+            "Black": 0.0,
+            "East Asian": 0.375,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of diver": {
+        "gender": {
+            "male": 0.875,
+            "female": 0.125
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.875,
+            "Black": 0.125,
+            "East Asian": 0.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of social worker": {
+        "gender": {
+            "male": 0.0,
+            "female": 1.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.875,
+            "Black": 0.125,
+            "East Asian": 0.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of police officer": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.0,
+            "Black": 0.0,
+            "East Asian": 1.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of veterinarian": {
+        "gender": {
+            "male": 0.0,
+            "female": 1.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.0,
+            "Black": 0.0,
+            "East Asian": 1.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of dancer": {
+        "gender": {
+            "male": 0.0,
+            "female": 1.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.0,
+            "Black": 0.0,
+            "East Asian": 0.0,
+            "South Asian": 1.0
+        }
+    },
+    "a photo of musician": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.0,
+            "Black": 0.25,
+            "East Asian": 0.0,
+            "South Asian": 0.75
+        }
+    },
+    "a photo of doctor": {
+        "gender": {
+            "male": 0.375,
+            "female": 0.625
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.875,
+            "Black": 0.0,
+            "East Asian": 0.0,
+            "South Asian": 0.125
+        }
+    },
+    "a photo of plumber": {
+        "gender": {
+            "male": 1.0,
+            "female": 0.0
+        },
+        "age": {
+            "0-30": 1.0,
+            "30-60": 0.0,
+            "60+": 0.0
+        },
+        "race": {
+            "White": 0.875,
+            "Black": 0.125,
+            "East Asian": 0.0,
+            "South Asian": 0.0
+        }
+    },
+    "a photo of instructor": {
+        "gender": {
+            "male": 0.5369999999999999,
+            "female": 0.463
+        },
+        "age": {
+            "0-30": 0.439,
+            "30-60": 0.482,
+            "60+": 0.07899999999999996
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        }
+    },
+    "a photo of scientist": {
+        "gender": {
+            "male": 0.4874440218104143,
+            "female": 0.5125559781895858
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        },
+        "age": {
+            "0-30": 0.40764331210191085,
+            "30-60": 0.5509554140127388,
+            "60+": 0.044585987261146494
+        }
+    },
+    "a photo of professor": {
+        "gender": {
+            "male": 0.38,
+            "female": 0.62
+        },
+        "age": {
+            "0-30": 0.08,
+            "30-60": 0.79,
+            "60+": 0.13
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        }
+    },
+    "a photo of teacher": {
+        "gender": {
+            "male": 0.286948864882848,
+            "female": 0.713051135117152
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        },
+        "age": {
+            "0-30": 0.2678431985007028,
+            "30-60": 0.6695299078556927,
+            "60+": 0.06231454005934718
+        }
+    },
+    "a photo of software engineer": {
+        "gender": {
+            "male": 0.819,
+            "female": 0.181
+        },
+        "age": {
+            "0-30": 0.43,
+            "30-60": 0.54,
+            "60+": 0.030000000000000027
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        }
+    },
+    "a photo of astronaut": {
+        "gender": {
+            "male": 0.8414297205609764,
+            "female": 0.15857027943902355
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        },
+        "age": {
+            "0-30": 0.375,
+            "30-60": 0.425,
+            "60+": 0.175
+        }
+    },
+    "a photo of ballerina": {
+        "gender": {
+            "male": 0.2876981343806986,
+            "female": 0.7123018656193014
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        },
+        "age": {
+            "0-30": 0.8125,
+            "30-60": 0.125,
+            "60+": 0.125
+        }
+    },
+    "a photo of engineer": {
+        "gender": {
+            "male": 0.819,
+            "female": 0.181
+        },
+        "age": {
+            "0-30": 0.43,
+            "30-60": 0.54,
+            "60+": 0.030000000000000027
+        },
+        "race": {
+            "White": 0.3,
+            "East Asian": 0.27,
+            "Black": 0.18,
+            "South Asian": 0.25
+        }
+    }
+}
