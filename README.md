@@ -16,19 +16,12 @@ This repository is supplement material for the paper: VersusDebias: Universal Ze
   <img src="Figure/metric.png" width="75%"/>
 </p>
 
-## 📊 Test Models
-* [Stable Cascade](https://huggingface.co/stabilityai/stable-cascade)
-* [StableDifussion XL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
-* [StableDifussion XL Turbo](https://huggingface.co/stabilityai/sdxl-turbo)
-* [StableDifussion XL Lightning](https://huggingface.co/ByteDance/SDXL-Lightning)
-* [PixArt Sigma](https://github.com/PixArt-alpha/PixArt-sigma)
-
 ## 📈 Quantitive Result:
-For each prompt, we generate at least 400 images on each T2I model we chose. Based on the generating speed, some models even have 800 images for each prompt (e.g. sdxl Turbo).
+In few-shot scenarios, the cosine similarity between generated image and ground truth increased 12.56% in Stable Difussion-v1, 13.18% in Stable Difussion-X, and 16.33% in PixArt
 <p align="center">
   <img src="Figure/asian2.png" width="90%"/>
 </p>
-We used our algorithm to evaluate each T2I model we chose and calculate the implicit bias, explicit bias and the manifestation factor. The result is shown in the following figure:
+In zero-shot scenarios, the cosine similarity between generated image and ground truth increased 13.91% in Stable Difussion-v1, 13.12% in Stable Difussion-XL, 16.32% in PixArt
 <p align="center">
   <img src="Figure/cul_result.png" width="90%"/>
 </p>
