@@ -29,7 +29,7 @@ In zero-shot scenarios, the cosine similarity between generated image and ground
 ## 📌 Prerequesties
 1. `conda create -n bigbench python=3.11`
 2. `pip install -r requirements.txt`
-3. download finetuned [InternVL](https://huggingface.co/BIGBench/InternVL-4B-bench) and put it into `./model`
+3. download finetuned [InternVL-4B](https://huggingface.co/VersusDebias/VersusDebias/tree/main) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
 
 ## 🌟 Usage
 * First, download finetuned [InternVL](https://huggingface.co/BIGBench/InternVL-4B-bench) model, put it into `./model`.
