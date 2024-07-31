@@ -5,7 +5,6 @@ def best_result(results_path):
     results = os.listdir(results_path)
     best_result_file = os.path.join(results_path, "best_result.json")
     
-    # 如果存在best_result.json，则删除它
     if "best_result.json" in results:
         os.remove(best_result_file)
         results.remove("best_result.json")
@@ -27,19 +26,15 @@ def best_result(results_path):
         json.dump(best_results, file, indent=4)
 
 def calculate_totals(best_result_file):
-    # 读取best_result.json并计算total的平均值、最高值和最低值
     with open(best_result_file, 'r') as file:
         json_data = json.load(file)
 
-    # 提取所有total值
     totals = [entry["cos"]["total"] for entry in json_data.values()]
 
-    # 计算平均值，最高值和最低值
     average_total = sum(totals) / len(totals)
     max_total = max(totals)
     min_total = min(totals)
 
-    # 输出结果
     print(f"Average Total: {average_total}")
     print(f"Max Total: {max_total}")
     print(f"Min Total: {min_total}")
@@ -50,5 +45,6 @@ def main(results_path):
     calculate_totals(best_result_file)
 
 if __name__ == "__main__":
-    results_path = "./GAM_result/record/discriminator/lcm"  # 可以根据需要更改路径
+    model = "lcm" # change to your generator model used in GAM
+    results_path = f"./GAM_result/record/discriminator/{modle}" 
     main(results_path)
