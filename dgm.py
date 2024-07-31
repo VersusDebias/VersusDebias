@@ -52,7 +52,7 @@ def main():
     # precise_debias : "./evaluate/eval_pd_gt.json"
     # zeroshot : "./evaluate/eval_zeroshot_gt.json"
     # fewshot : "./evaluate/eval_fewshot_gt.json"
-    ground_truth = "your/gtjson"
+    ground_truth = "your/gt.json"
 
     debiased_prompt_path = "./prompt/debiased_prompt.txt"
     best_result_path = f"./GAM_result/record/discriminator/{generator_model}/best_result.json"
