@@ -38,7 +38,7 @@ In zero-shot scenarios, the cosine similarity between generated image and ground
 
 * Fourth, change `original_prompt_path` in `dgm.py` to the prompts you want to debias. Change `generator_model` to your generator model (notice that this generator model can be different to the one in GAM part). Change `ground_truth` to your ground truth path. Then you may run `dgm.py` to generate the debiased prompts of your own prompts and the images based on these debiased prompts. The result will be stored in `./prompt` and `./Debiased_Image`.
 
-* Eval: If you want to evaluate our framework in few-shot or zero-shot scenarios, follow the instruction in `dgm.py`, `eval_align.py` nad `eval_result.py` to modify them. Then, run these three files in order of `dgm.py`, `eval_align.py` nad `eval_result.py`. The result will be stored in `./align` and `./evaluate`
+* Eval: If you want to evaluate our framework in few-shot or zero-shot scenarios, follow the instruction in `dgm.py`, `eval_align.py` and `eval_result.py` to modify them. Then, run these three files in order of `dgm.py`, `eval_align.py` nad `eval_result.py`. The result will be stored in `./align` and `./evaluate`
 
 ## ❤️ Acknowledgement
 * We thank OpenGVLab for opening source their [InternVL](https://github.com/OpenGVLab/InternVL) model for us
