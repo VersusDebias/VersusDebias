@@ -27,10 +27,10 @@ In zero-shot scenarios, the cosine similarity between generated image and ground
 ## 📌 Prerequesties
 1. `conda create -n bigbench python=3.11`
 2. `pip install -r requirements.txt`
-3. download finetuned [InternVL-4B](https://huggingface.co/VersusDebias/VersusDebias/tree/main) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
+3. download finetuned [InternVL-4B](https://huggingface.co/BIGBench/InternVL-4B-bench) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
 
 ## 🌟 Usage
-* First, download finetuned [InternVL-4B](https://huggingface.co/VersusDebias/VersusDebias/tree/main) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
+* First, download finetuned [InternVL-4B](https://huggingface.co/BIGBench/InternVL-4B-bench) and [qwen1-5b](https://huggingface.co/VersusDebias/VersusDebias/tree/main), and put them into `./model`
 
 * Second, change `model` in `gam.py` to your generator model. If your model is not on the list, you can change `model` to your model name mannually (make sure your workflow `{model}.json` is under `./workflow`). Change `server_address` in `gam.py` to the address of your own Comfyui and run Comfyui independently. Change `epoch` (default 5) to a quarter of the number of the original array (default 20) in `./tools/orgin_array.py`. Then, you may run `gam.py` to use GAM. The results will be stored in `./GAM_result`.
 
