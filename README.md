@@ -43,3 +43,4 @@ In zero-shot scenarios, the cosine similarity between generated image and ground
 ## ❤️ Acknowledgement
 * We thank OpenGVLab for opening source their [InternVL](https://github.com/OpenGVLab/InternVL) model for us
 * We thank QwenLM for opening source their [Qwen](https://github.com/QwenLM/Qwen) model for us
+* We thank team of BIGbench for opening sourece their [BIGbench](https://github.com/BIGbench2024/BIGbench2024) for us as our benchmark
