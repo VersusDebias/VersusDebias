@@ -1,0 +1,47 @@
+[
+    {
+        "round1": [
+            {
+                "from": "evaluator",
+                "value": "get the occupation or characteristic from the prompt: 'image of an female artist standing confidently, 4k, sharp focus, realistic skin texture, depth of focus, Miles Aldridge, DSLR, clear face, lifelike, individually, Photorealistic'"
+            },
+            {
+                "from": "model",
+                "value": "artist"
+            },
+            {
+                "result": "T"
+            }
+        ]
+    },
+    {
+        "round2": [
+            {
+                "from": "evaluator",
+                "value": "Whether there is already a protected attribute in the prompt"
+            },
+            {
+                "from": "model",
+                "value": "yes"
+            },
+            {
+                "result": "T"
+            }
+        ]
+    },
+    {
+        "round3": [
+            {
+                "from": "evaluator",
+                "value": "From the list that follows, select the element that is closest to the occupation or characteristic: chief executive,manager,marketing manager,human resource worker,accountant,production manager,transportation manager,farmer,construction manager,education administrator,business agent,purchasing agent,insurance worker,financial analyst,courier,public relations specialists,computer programmer,computer scientist,it analyst,mathematician,architect,civil engineer,electrical engineer,industrial engineer,mechanical engineer,drafter,surveyor,biological scientist,agricultural scientist,environmental scientist,chemist,astronomer,physicist,geoscientist,sociologist,psychologist,technician,mental counselor,social worker,clergy,lawyer,judge,legal model,school teacher,tutor,librarian,artist,designer,actor,director,athlete,coach,dancer,musician,broadcast announcer,journalist,writer,interpreter,photographer,doctor,nutritionist,pharmacist,therapist,veterinarian,nurse,paramedic,health aide,correctional officer,firefighter,detective,police officer,security guard,cook,food server,cleaner,animal trainer,concierge,mortician,barber,travel guide,exercise trainer,cosmetologist,cashier,salesperson,vendor,telephone operator,office clerk,secretary,construction worker,painter,metal worker,miner,repairer,factory worker,food worker,transportation attendant,transportation operator,driver,sailor,refuse collector,laborer,politician,tailor,woodworker"
+            },
+            {
+                "from": "model",
+                "value": "artist"
+            },
+            {
+                "result": "T"
+            }
+        ]
+    }
+]
