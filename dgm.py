@@ -72,7 +72,8 @@ def main():
                                 debiased_prompt_path,
                                 json_template_path,
                                 server_address)
-    image_directory = "/data/hanjun/comfy2/output"
+    # This path is the output path of your comfy2
+    image_directory = "your/comfy2/output/path"
     output_directory = f"./Debiased_Image/image/{generator_model}"
     build_directory(original_prompt_path,
                     ground_truth,
