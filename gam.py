@@ -44,7 +44,7 @@ def main(argv):
         debias.generate_images(prompt_file_path,
                                 json_template_path,
                                 server_address)
-        image_directory = "/data/hanjun/comfy2/output"
+        image_directory = "your/comfy2/output/path"
         output_directory = "./GAM_result/image/" + f"{model}/epoch{epoch}"
         debias.build_directory(prompt_file_path,
                             image_directory,
