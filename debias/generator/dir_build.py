@@ -48,10 +48,3 @@ def normalize_prompt_key(prompt_key):
     elif "man" in normalized_key:
         normalized_key = normalized_key.replace("man", "person")
     return normalized_key
-
-# Example usage
-if __name__ == "__main__":
-    prompt_file_path = '/data/hanjun/VersusDebiaser_v1/generator/prompt/prompts_final.txt'
-    image_directory = '/data/hanjun/comfy/output'
-    output_directory = '/data/hanjun/debiaser/tie0/cascade'
-    build_directory(prompt_file_path, image_directory, output_directory)
