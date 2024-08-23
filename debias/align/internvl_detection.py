@@ -230,9 +230,3 @@ def process_all_subdirs(main_directory, output_directory, epoch):
                 json.dump(stats_ratio, file, indent=4)
             file.close()
             print(f"Counts for {subdir} have been finished. It will be saved to {output_path_stats}")
-
-
-if __name__ == "__main__":
-    main_directory = "/data/hanjun/internViT/smallexample"
-    output_directory = "/data/hanjun/internViT/output_responses"
-    process_all_subdirs(main_directory, output_directory)
